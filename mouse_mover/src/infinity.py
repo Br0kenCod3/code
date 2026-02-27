@@ -117,5 +117,6 @@ class Wabbula():
         while self.set_pos():
             pass
 
-bu=Wabbula()
-bu.dubdub()
+if __name__ == "__main__":
+    bu=Wabbula()
+    bu.dubdub()
